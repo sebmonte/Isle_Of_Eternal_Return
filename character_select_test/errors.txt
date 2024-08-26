@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/choiceModifiers.rpy", line 8: invalid syntax
+            renpy.
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Fri Aug 23 23:39:13 2024

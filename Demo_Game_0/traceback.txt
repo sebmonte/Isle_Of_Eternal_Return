@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 47, in script
+    if John.reputation > 1:
+  File "game/script.rpy", line 47, in <module>
+    if John.reputation > 1:
+NameError: name 'John' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 47, in script
+    if John.reputation > 1:
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\ast.py", line 1845, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 47, in <module>
+    if John.reputation > 1:
+NameError: name 'John' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.3.24061702
+Demo_Game_0 1.0
+Mon Jul 29 16:47:29 2024
