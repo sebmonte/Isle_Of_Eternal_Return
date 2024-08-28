@@ -1,0 +1,76 @@
+:: StoryTitle
+The Downside
+
+
+:: StoryData
+{
+  "ifid": "6C3263B8-C730-4D82-B0A4-5A19E2F5E611",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Intro",
+  "zoom": 1
+}
+
+
+:: But I thought we already were in the seedy underbelly. {"position":"175,400","size":"100,100"}
+''History'' We were. This is the seedier, underer-belly. The people here are so ignored, many don’t know they exist.
+''Conceited'' I can see why. This place is thoroughly disgusting.
+
+
+:: Every step we take, things seem to get worse. {"position":"50,400","size":"100,100"}
+''History'' Then you’ll be unhappy to hear the records state that nothing good has or ever will come from this place. I’m not even sure how they would determine the latter.
+''Paranoid'' EXACTLY! This is what I keep saying! Let’s just turn around now, I think one of those fish things up there just winked at me.
+
+
+:: Go to: Hanging House {"position":"525,625","size":"100,100"}
+
+
+
+:: Good, I was disappointed by the last one. {"position":"300,400","size":"100,100"}
+''History'' Then you’ll be happy to hear the records state that nothing good has or ever will come from this place. I’m not even sure how they would determine the latter.
+
+
+:: History Failure {"position":"300,275","size":"100,100"}
+''History'' Records indicate... very little.
+[[Wonderful, thanks.|Intro]]
+
+
+:: History Success {"position":"175,275","size":"100,100"}
+''History'' This is the Downside, the true seedy underbelly of the city.
+''//R//'' [[But I thought we already were in the seedy underbelly.]]
+
+//''R''// [[Good, I was disappointed by the last one.]]
+
+''//R//'' [[Every step we take, things seem to get worse.]]
+
+
+
+:: Intro {"position":"425,125","size":"100,100"}
+Though you could swear you were just climbing down a ladder, you find yourself finishing your ascent. Darkness plumes around you as if a smoke of nothing rising into nothing. You clamber onto a stone pathway that feels more stable than it looks. Chained to this twisting path are blank cubes that dangle upwards. Monochromatic waterfalls of chalk pour into the sky above, reaching past contorted leviathans drifting by, as if resting.
+''Nihilist'' Or maybe they’re just dead. 
+//''History check''// Where are we? [[History Success]] [[History Failure]]
+//''Occultism check''// Try to understand this place. [[Occult Success]] [[Occult Failure]] 
+
+[[Screen Options]] (always available)
+
+
+:: Occult Failure {"position":"625,275","size":"100,100"}
+
+
+
+:: Occult Success {"position":"500,275","size":"100,100"}
+''Occultism'' Up is down and down is up! The refuse of the refuse has trickled through the cracks in the walls and pooled into this emetic mass, and now we merge with it. 
+''R'' Which means...?
+''Valor'' Which //means//, the plights of these poor peoples have been passed to the side; A willful ignorance we must rectify! $downside_rep + 1
+''Creativity'' Which //means//, there is no head to this coin. 
+
+
+
+:: Screen Options {"position":"400,500","size":"100,100"}
+[[The Sky]]
+[[Go to: Hanging House]]
+[[
+
+
+:: The Sky {"position":"400,625","size":"100,100"}
+

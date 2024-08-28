@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/Scenes/Scene_Graveyard.rpy", line 9, in script call
+    call screen graveyard_screen
+  File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 9, in script call
+    call screen cozyRoom_screen
+  File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 36, in script
+    $ profile.set_skill("P", 0)
+  File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 36, in <module>
+    $ profile.set_skill("P", 0)
+  File "game/scripts/Objects/Object_Stats.rpy", line 25, in set_skill
+    for key, value in self.skills.items():
+RuntimeError: dictionary changed size during iteration
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/Scenes/Scene_Graveyard.rpy", line 9, in script call
+    call screen graveyard_screen
+  File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 9, in script call
+    call screen cozyRoom_screen
+  File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 36, in script
+    $ profile.set_skill("P", 0)
+  File "C:\Users\montesinosalw\OneDrive - National Institutes of Health\Desktop\Coding\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\montesinosalw\OneDrive - National Institutes of Health\Desktop\Coding\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 36, in <module>
+    $ profile.set_skill("P", 0)
+  File "game/scripts/Objects/Object_Stats.rpy", line 25, in set_skill
+    for key, value in self.skills.items():
+RuntimeError: dictionary changed size during iteration
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.3.24061702
+Test_gibbit 1.0
+Thu Aug 15 15:15:27 2024

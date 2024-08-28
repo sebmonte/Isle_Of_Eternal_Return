@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 33: expected statement.
+    "You really should listen to me more often" if profile.skillcheck("P") >= 1:
+                                                ^
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Thu Aug 15 15:14:08 2024
