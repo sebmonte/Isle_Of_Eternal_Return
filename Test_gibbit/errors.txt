@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Scenes/Scene_CozyRoom.rpy", line 33: expected statement.
-    "You really should listen to me more often" if profile.skillcheck("P") >= 1:
-                                                ^
+File "game/scripts/Objects/Object_Profile.rpy", line 22: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Thu Aug 15 15:14:08 2024
+Fri Aug 30 10:08:40 2024

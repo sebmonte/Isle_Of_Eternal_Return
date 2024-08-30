@@ -1,5 +1,5 @@
 init python:
-    overlay_screens = ["inventory_display", "stats_display", "map_display"]
+    overlay_screens = ["inventory_display", "skills_display", "map_display"]
 
     #Hides strings from given list (screen_list)
     # except the screen listed in keep_screen if there is one
@@ -31,7 +31,7 @@ screen overlay():
             idle_color "#000"
             hover_color "#fff"
             align (0.5, 0.5)
-        action ToggleScreen("skills_display"), Function(hide_screens, overlay_screens, "stats_display")
+        action ToggleScreen("skills_display"), Function(hide_screens, overlay_screens, "skills_display")
     
     #Map
     button:

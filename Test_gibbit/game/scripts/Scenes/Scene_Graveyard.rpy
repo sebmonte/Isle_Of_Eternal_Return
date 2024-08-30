@@ -1,10 +1,14 @@
 ﻿label graveyard_intro():
-    $ graveyard_visited = True
+    #Clears scene of images
+    scene
     #Clears screen and adds new background
     scene bg graveyard at background_trans:
         zoom 2.5
 
-    "intro text"
+    if not graveyard_visited:
+        "intro text"
+
+    $ graveyard_visited = True
     
     call screen graveyard_screen
 
@@ -25,11 +29,13 @@ label graveyard_pd():
         "Sure, they're kinda cute tbh.":
             show fx transmission:
                 alpha 0.5
-            jump graveyard_pd_accept
+            call graveyard_pd_accept
         "What, no! What the hell, they're terrifying, why the hell would we accept that??? What the fuck???":
-            jump graveyard_pd_reject
+            call graveyard_pd_reject
         # "Secret Third Option" if secret_found == TRUE:
-        #     jump secret
+        #     call secret
+
+    jump graveyard_intro
 
     return
 
@@ -48,9 +54,11 @@ label graveyard_pd_reject():
 
     return
 
-# label secret:
-#     amaris "YOU DID IT, YOU WON! EVERYONE LOVES YOU!"
+label test:
+    show pd love at character_trans:
+        zoom 1.0
+    amaris "YOU DID IT, YOU WON! EVERYONE LOVES YOU!"
 
-#     return
+    return
 
 

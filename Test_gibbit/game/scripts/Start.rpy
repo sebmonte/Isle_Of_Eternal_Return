@@ -31,7 +31,7 @@ init python:
     player_inventory.add_item(key)
     player_inventory.add_item(question)
 
-    profile = Profile()
+    profile = Profile("Valor", "Paranoia")
 
 transform background_trans:
     xalign 0
@@ -45,7 +45,7 @@ transform character_trans:
 # NEXT TASK: Make clickable background elements
 label start():
     show screen overlay
-    #jump graveyard_intro
+    jump graveyard_intro
 
 label secret_error():
     "If you're seeing this, something went wrong."
