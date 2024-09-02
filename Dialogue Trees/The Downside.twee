@@ -8,21 +8,55 @@ The Downside
   "format": "Harlowe",
   "format-version": "3.3.9",
   "start": "Intro",
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
-:: But I thought we already were in the seedy underbelly. {"position":"175,400","size":"100,100"}
+:: "How did they get here?" (failure) {"position":"600,775","size":"100,100"}
+
+
+
+:: "How did they get here?" (success) {"position":"500,775","size":"100,100"}
+
+
+
+:: "What are the markings?" (Creativity auto-success) {"position":"175,900","size":"100,100"}
+**Creativity** What're ya worrying about? Those things are just like bugs, but... big. Big bugs! And bugs are icky but I play with them all the time. 
+**Scrutiny** Sure kid, bugs. Well, these *bugs* have brands: cuts in the shape of a bisected whisk—brutal but definitely purpesful. So either these fish are self-mutilating or...
+**Creativity** Someone likes stepping on bugs!
+**Paranoia** *There's always a bigger fish.*
+**History >= 0** Those are the markings of the gods. These are beings of worship. The question remains: were they pre- or post-mortem?
+
+
+
+:: "What are the markings?" (failure) {"position":"375,900","size":"100,100"}
+**Scrutiny** They're not just markings they're... gashes... brands into the... fuck, it's like there are eyes in there too. Stop... STOP LOOKING AT ME! $health - 5 
+
+
+
+
+:: "What are the markings?" (success) {"position":"275,900","size":"100,100"}
+**Scrutiny** Alright, swallowing my vomit here. They've got gashes on them. Definitely purpesful. They're like... in the shape of a bisected prolate spheroid. Or a vulva. No idea who'd make those though.
+**Paranoia** *There's always a bigger fish.*
+**History >= 0** Those are the markings of the gods. These are beings of worship. The question remains: were they pre- or post-mortem?
+
+
+
+:: But I thought we already were in the seedy underbelly. {"position":"50,400","size":"100,100"}
 ''History'' We were. This is the seedier, underer-belly. The people here are so ignored, many don’t know they exist.
 ''Conceited'' I can see why. This place is thoroughly disgusting.
 
 
-:: Every step we take, things seem to get worse. {"position":"50,400","size":"100,100"}
+:: Every step we take, things seem to get worse. {"position":"175,400","size":"100,100"}
 ''History'' Then you’ll be unhappy to hear the records state that nothing good has or ever will come from this place. I’m not even sure how they would determine the latter.
 ''Paranoid'' EXACTLY! This is what I keep saying! Let’s just turn around now, I think one of those fish things up there just winked at me.
 
 
-:: Go to: Hanging House {"position":"525,625","size":"100,100"}
+:: Go to Screen: Hanging House {"position":"950,100","size":"100,100"}
+
+
+
+:: Go to Screen: return(?) {"position":"0,0","size":"100,100"}
 
 
 
@@ -30,47 +64,97 @@ The Downside
 ''History'' Then you’ll be happy to hear the records state that nothing good has or ever will come from this place. I’m not even sure how they would determine the latter.
 
 
-:: History Failure {"position":"300,275","size":"100,100"}
-''History'' Records indicate... very little.
-[[Wonderful, thanks.|Intro]]
-
-
-:: History Success {"position":"175,275","size":"100,100"}
-''History'' This is the Downside, the true seedy underbelly of the city.
-''//R//'' [[But I thought we already were in the seedy underbelly.]]
-
-//''R''// [[Good, I was disappointed by the last one.]]
-
-''//R//'' [[Every step we take, things seem to get worse.]]
-
-
-
-:: Intro {"position":"425,125","size":"100,100"}
+:: Intro {"position":"400,150","size":"100,100"}
 Though you could swear you were just climbing down a ladder, you find yourself finishing your ascent. Darkness plumes around you as if a smoke of nothing rising into nothing. You clamber onto a stone pathway that feels more stable than it looks. Chained to this twisting path are blank cubes that dangle upwards. Monochromatic waterfalls of chalk pour into the sky above, reaching past contorted leviathans drifting by, as if resting.
 ''Nihilist'' Or maybe they’re just dead. 
-//''History check''// Where are we? [[History Success]] [[History Failure]]
-//''Occultism check''// Try to understand this place. [[Occult Success]] [[Occult Failure]] 
+//''History check''// [[Where are we? (success)]] [[Where are we? (failure)]]
+//''Occultism check''// [[Try to understand this place. (success)]] [[Try to understand this place. (failure)]]
 
 [[Screen Options]] (always available)
 
 
-:: Occult Failure {"position":"625,275","size":"100,100"}
+:: Markdown-Compatible Comment Example {"position":"600,50","size":"100,100"}
+Though you could swear you were just climbing down a ladder, you find yourself finishing your ascent. Darkness plumes around you as if a smoke of nothing rising into nothing. You clamber onto a stone pathway that feels more stable <<gable>> than it looks. Chained to this twisting path are blank cubes that dangle upwards. Monochromatic waterfalls of chalk pour into the sky above, reaching past contorted leviathans drifting by, as if resting.
+<<Though you could swear you were just taking adderall, you find yourself finishing your homework. Darkness GLOOMS around you as if a smoke of nothing rising into nothing. You clamber the foam gable and is not a thing that exists. Chained to this twisting path are examples of bad writing.>>
+
+<<Unfortunately, this is glitchy as hell, like if you'd like to use a conjunction>>
+<<Unless you''d like to deal with doing *two* apostrophes>>
+
+
+:: Peer into the spiraling forms (failure) {"position":"375,775","size":"100,100"}
+**Scrutiny** Those eyes... it's like they're in me too. Stop... STOP LOOKING AT ME! $health - 5
 
 
 
-:: Occult Success {"position":"500,275","size":"100,100"}
-''Occultism'' Up is down and down is up! The refuse of the refuse has trickled through the cracks in the walls and pooled into this emetic mass, and now we merge with it. 
-''R'' Which means...?
-''Valor'' Which //means//, the plights of these poor peoples have been passed to the side; A willful ignorance we must rectify! $downside_rep + 1
-''Creativity'' Which //means//, there is no head to this coin. 
+
+:: Peer into the spiraling forms. (success) {"position":"275,775","size":"100,100"}
+**Scrutiny** Layers of peeling skin, flacid bone, and... ugh, some markings or something. Fuck this, I'm gonna vomit before we get anywhere.
+**Precense >= 3** Look away. Now.
+***Hidden Precense Check*** [["What are the markings?" (success)]] [["What are the markings?" (failure)]] [["What are the markings?" (Creativity auto-success)]]
+**P** [[Look away|The Sky]]
 
 
 
-:: Screen Options {"position":"400,500","size":"100,100"}
+
+:: Python-Compatible Comment Example {"position":"500,50","size":"100,100"}
+Though you could swear you were just climbing down a ladder, you find yourself finishing your ascent.
+Darkness plumes around you as if a smoke of nothing rising into nothing.
+You clamber onto a stone pathway that feels more stable [gable] than it looks. 
+Chained to this twisting path are blank cubes that dangle upwards. Monochromatic [colorful] waterfalls of chalk pour into the sky above, 
+reaching past contorted leviathans drifting by, as if resting.
+[ALT: Though you could swear you were just taking adderall, you find yourself]
+[ finishing your homework. Darkness GLOOMS *around* you as if a smoke of nothing rising into nothing. You clamber the foam /*gable*/ and it's so goddamn wet.]
+[ Chained to this twisting path are examples of bad writing.]
+**Nihilist** Or maybe they’re just dead.
+***History check*** [Where are we? (success)] 
+[Where are we? (failure)]]
+***Occultism check*** [[Try to understand this place. (success)] [Try to understand this place. (failure)]
+
+<!-- This is unfortunately comment syntax -->
+
+[Screen Options] #PERM
+
+
+:: Screen Options {"position":"400,525","size":"100,100"}
 [[The Sky]]
-[[Go to: Hanging House]]
-[[
+[[Go to Screen: Hanging House]]
+[[Go to Screen: return(?)]]
 
 
-:: The Sky {"position":"400,625","size":"100,100"}
+:: The Sky {"position":"400,650","size":"100,100"}
+The sky—if it is a sky—houses beings whose forms speak volumes amongst their silence. It is a soup of rotting eyes and twirling limbs, as if a corpse's ballet.
+***Scrutiny check*** [[Peer into the spiraling forms. (success)]] [[Peer into the spiraling forms (failure)]]
+***Occultism check*** [["How did they get here?" (success)]] [["How did they get here?" (failure)]]
+
+
+:: Try to understand this place. (failure) {"position":"600,275","size":"100,100"}
+**Occultism** The strain of this reality pulls at your skin. It is a muddled mess of monochramatic cocaphonies. 
+
+
+:: Try to understand this place. (success) {"position":"500,275","size":"100,100"}
+''Occultism'' Up is down and down is up! The refuse of the refuse has trickled through the cracks in the walls and pooled into this emetic mass, and now we merge with it. 
+''P'' "Which means...?"
+''Valor'' Which //means//, the plights of these poor peoples have been passed to the side; A willful ignorance we must rectify! $downside_rep + 1
+''Creativity >= 3'' Which //means//, you can't call heads when you flip this coin! 'Tsa a lot funner down here, let's hang out!
+''Precense >= 3'' Which //means//, we must stay centered—our sanity is at risk in this place.
+''History >= 3'' Which means very little. I'd suggest gathering some information from the locals before we get caught up in the... *emetic mass*.
+
+
+
+:: Untitled Passage {"position":"750,250","size":"100,100"}
+
+
+
+:: Where are we? (failure) {"position":"275,275","size":"100,100"}
+''History'' Records indicate... very little.
+**P** "Wonderful, thanks."
+
+
+:: Where are we? (success) {"position":"175,275","size":"100,100"}
+**History** This is the Downside, the true seedy underbelly of the city.
+***P*** [[But I thought we already were in the seedy underbelly.]]
+
+***P*** [[Good, I was disappointed by the last one.]]
+
+***P*** [[Every step we take, things seem to get worse.]]
 
