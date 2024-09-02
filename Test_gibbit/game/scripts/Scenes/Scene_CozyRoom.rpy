@@ -16,9 +16,9 @@ label cozyRoom_goo():
         "I shouldn't have to be the one to tell you this, but please don't stick your hand in there."
     
     menu:
-        "Stick your hand in there anyway" if profile.skillcheck("Pre") >= 1:
+        "Stick your hand in there anyway" if profile.skill_check("Pre") >= 1:
             call cozyRoom_goo_plunge
-        "Stick your hand in there" if profile.skillcheck("Pres") < 1:
+        "Stick your hand in there" if profile.skill_roll("P", [], "Hard") >= 3:
             call cozyRoom_goo_plunge
         "Leave it alone":
             return
