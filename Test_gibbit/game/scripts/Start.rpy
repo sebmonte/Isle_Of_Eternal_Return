@@ -31,7 +31,7 @@ init python:
     player_inventory.add_item(key)
     player_inventory.add_item(question)
 
-    profile = Profile("Valor", "Paranoia")
+    player = Player("Valor", "Paranoia")
 
 transform background_trans:
     xalign 0

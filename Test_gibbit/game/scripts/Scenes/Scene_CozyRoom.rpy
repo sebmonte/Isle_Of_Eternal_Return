@@ -1,4 +1,5 @@
 ﻿label cozyRoom_intro():
+    $ player.location = "cozyRoom"
     $ cozyRoom_visited = True
     #Clears screen and adds new background
     scene bg judgement at background_trans:
@@ -16,9 +17,9 @@ label cozyRoom_goo():
         "I shouldn't have to be the one to tell you this, but please don't stick your hand in there."
     
     menu:
-        "Stick your hand in there anyway" if profile.skill_check("Pre") >= 1:
+        "Stick your hand in there anyway" if player.skill_check("Pre") >= 1:
             call cozyRoom_goo_plunge
-        "Stick your hand in there" if profile.skill_roll("P", [], "Hard") >= 3:
+        "Stick your hand in there" if player.skill_roll("P", [], "Hard") >= 3:
             call cozyRoom_goo_plunge
         "Leave it alone":
             return

@@ -1,4 +1,5 @@
 ﻿label graveyard_intro():
+    $ player.location = "graveyard"
     #Clears scene of images
     scene
     #Clears screen and adds new background
