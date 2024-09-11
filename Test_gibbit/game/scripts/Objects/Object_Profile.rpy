@@ -14,6 +14,7 @@ init python:
             self.money = 0
 
             self.location = None #Tracks current player location
+            self.rests = 0 #Tracks num of player rests
 
         def print_skills(self):
             # f-string allows us to easily include variables in string (e.g. {variable_name})
