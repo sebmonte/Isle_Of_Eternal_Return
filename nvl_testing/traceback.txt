@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "game/screens.rpy", line 1389, in <module>
+    xpos gui.nvl_text_xpos + gui.nvl_label.xsize + 10
+AttributeError: 'StoreModule' object has no attribute 'nvl_label'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\main.py", line 637, in main
+    run(restart)
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\main.py", line 75, in run
+    renpy.translation.init_translation()
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\translation\__init__.py", line 664, in init_translation
+    renpy.store._init_language() # type: ignore
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\translation\__init__.py", line 758, in change_language
+    new_change_language(tl, language)
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\translation\__init__.py", line 710, in new_change_language
+    i.apply()
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\ast.py", line 2787, in apply
+    value = renpy.python.py_eval(expr)
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Seb\Desktop\Renpy\renpy-8.2.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens.rpy", line 1389, in <module>
+    xpos gui.nvl_text_xpos + gui.nvl_label.xsize + 10
+AttributeError: 'StoreModule' object has no attribute 'nvl_label'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.3.24061702
+nvl_testing 1.0
+Mon Sep  2 19:35:59 2024

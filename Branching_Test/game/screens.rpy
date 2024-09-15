@@ -1300,7 +1300,6 @@ style notify_text:
 
 
 screen nvl(dialogue, items=None):
-
     window:
         style "nvl_window"
 

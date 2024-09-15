@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 27: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    return
-    ^
+File "game/screens.rpy", line 1304: 'Frame' is not a keyword argument or valid child of the screen statement.
+    Frame:
+         ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Sun Aug 18 15:56:54 2024
+Mon Sep  2 12:11:48 2024

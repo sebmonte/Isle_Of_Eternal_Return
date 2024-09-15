@@ -1,0 +1,15 @@
+Disco Framework
+
+A Template for the game engine Ren'Py.
+
+Made by Jasmine "Katy133" Osler.
+
+https://katy133.itch.io/
+
+---
+
+Q: How do I use this framework?
+
+A: Download and install Ren'Py. Create a New Project using the launcher. Open the project's folder. Replace the "game" folder with the Disco Framework game folder.
+
+Have fun!

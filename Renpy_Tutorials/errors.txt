@@ -2,11 +2,47 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at File "game/Screen_Tutorial_Lez.rpy", line 709:
-label start():
-and File "game/Screen_Tutorial_Lez.rpy", line 729:
-label start():
+The label tagExample is defined twice, at File "game/Label_Tutorial.rpyc", line 34:
+
+and File "game/Label_Tutorial_Lez.rpy", line 34:
+label tagExample():
+
+
+The label start0 is defined twice, at File "game/Label_Tutorial.rpyc", line 67:
+
+and File "game/Label_Tutorial_Lez.rpy", line 67:
+label start0():
+
+
+The label start1 is defined twice, at File "game/Label_Tutorial.rpyc", line 105:
+
+and File "game/Label_Tutorial_Lez.rpy", line 105:
+label start1():
+
+
+The label start2 is defined twice, at File "game/Label_Tutorial.rpyc", line 120:
+
+and File "game/Label_Tutorial_Lez.rpy", line 120:
+label start2():
+
+
+The label start3 is defined twice, at File "game/Label_Tutorial.rpyc", line 145:
+
+and File "game/Label_Tutorial_Lez.rpy", line 145:
+label start3():
+
+
+The label start4 is defined twice, at File "game/Label_Tutorial.rpyc", line 169:
+
+and File "game/Label_Tutorial_Lez.rpy", line 169:
+label start4():
+
+
+The label start5 is defined twice, at File "game/Label_Tutorial.rpyc", line 200:
+
+and File "game/Label_Tutorial_Lez.rpy", line 200:
+label start5():
 
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Sat Aug 24 14:29:04 2024
+Thu Sep  5 21:52:05 2024

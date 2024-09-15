@@ -105,7 +105,7 @@ screen virtue_descriptions():
     vbox:
         pos(350, 300)
         add 'icon':
-            align(0.0, 0.0)
+            align(0.5, 0.0)
         fixed:
             xsize 375
             text generate_virtuevice_description():

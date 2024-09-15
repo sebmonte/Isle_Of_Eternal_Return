@@ -1,20 +1,25 @@
 
-define l = Character("Lezalith",
-    who_color = "E34D0C", kind=nvl)
-define e = Character("Eileen", kind=nvl)
+define l = Character(None, kind=nvl, what_prefix="Sylvie: \"", what_suffix="\"")
+define e = Character("Eileennnnnnnnnnnnnnnnnnnnnn", kind=nvl)
 
 
 define narrator = nvl_narrator
 define menu = nvl_menu
 define testVar = 1
 
+image graves = "images/scene1.jpeg"
 
+image plague_doctor = "images/plague_doctor.png"
 
+screen graveyard_screen():
+    add "plague_doctor"
 
 
 label start():
     'You reach the bar. A bartender sits at the counter. There is a shadow figure at the end'
+    show screen graveyard_screen
     'Suddenly you notice another thing'
+
     menu:
         'Talk to the bartender':
             jump bartender
